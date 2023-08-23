@@ -1,0 +1,42 @@
+{
+  "name": "hiberbeeplus",
+  "displayName": "Hiberbee++",
+  "description": "A Mix Between Hiberbee Editor Colors and Monokai++Dark Workspace",
+  "version": "0.0.1",
+  "icon": "icon.png",
+	"repository": {
+		"url": "https://github.com/MoYasser/HiberbeePlus",
+		"type": "git",
+		"directory": "src/vscode"
+	},
+  "publisher": "MoYasser",
+  "keywords": [
+		"Monokai++",
+		"Hiberbee",
+		"Dark Theme C++",
+		"Dark Theme",
+		"Dark Theme C",
+		"Dark Theme Java",
+		"Monokai"
+	],
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+		"start": "code",
+		"build": "vsce package",
+		"publish": "vsce publish --no-git-tag-version"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hiberbee++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hiberbee++-color-theme.json"
+      }
+    ]
+  }
+}
