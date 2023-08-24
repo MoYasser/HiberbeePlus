@@ -2,6 +2,7 @@
 	"name": "Hiberbee++",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.activeBackground": "#ff000000",
 		"activityBar.activeBorder": "#0078d4",
